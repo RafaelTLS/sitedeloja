@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+}
+
+html {
+	background-color: #fafafa;
+	height: auto;
+	width: auto;
+}
+
+h1, h2, h3, h4, p, a, label, textarea {
+	font-family: Source Sans Pro;
+}
+
+header {
+	padding: 20px 40px;
+	background-color: #202020;
+	color: #fafafa;
+	display: flex;
+}
+
+header a {
+	text-decoration: none;
+	color: #fafafa;
+	width: 50%;
+}
+
+header h2 {
+	font-size: 16px;
+}
+
+header form {
+	flex-grow: 1;
+	position: absolute;
+	right: 0;
+	padding: 15px 25px;
+}
+
+header form input[type=text] {
+	padding: 12px;
+	background-color: #202020;
+	border: none;
+	border-bottom: 2px solid #fafafa;
+	color: #fafafa;
+}
+
+header form input[type=submit] {
+	padding: 12px;
+	background-color: #fafafa;
+	border: none;
+	color: #202020;
+}
+
+main {
+	padding: 20px;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+main h2 {
+	font-weight: 300;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+	border-bottom: 2px solid #202020;
+	margin: 0 20px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul li {
+	margin: 5px;
+	width: 200px;
+	padding: 20px;
+	text-align: center;
+	display: inline-block;
+}
+
+li a {
+	text-decoration: none;
+	color: #0a0a0a;
+}
+
+li h3 {
+	text-transform: uppercase;
+}
+
+li h4 {
+	letter-spacing: 2px;
+	font-weight: 500;
+}
+
+li img {
+	object-fit: contain;
+	width: 200px;
+}
+
+div.wrapper {
+	margin: 5px;
+	padding: 20px;
+	display: flex;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+aside {
+	margin-left: 30px;
+	flex-grow:  1;
+}
+
+figure img {
+	min-width: 500px;
+	object-fit: contain;
+}
+
+aside h4 {
+	font-size: 50px;
+	margin: 20px 0;
+}
+
+aside p {
+	font-size: 20px;
+}
+
+a#buybtn {
+	padding: 15px 50px;
+	background-color: #0a0a0a;
+	color: #fafafa;
+	text-decoration: none;
+
+}
+
+footer {
+	padding: 20px;
+	text-align: center;
+	background-color: #202020;
+	color: #fafafa;
+}
